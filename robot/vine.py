@@ -10,9 +10,9 @@ def go():
   moved = 0
   while touch() == "fruit":
     move()
-    moved = moved + 1
-    
+    moved = moved + 1 
   turn(-1)
+  
   if touch() == "fruit":
     go()
   turn(2)
