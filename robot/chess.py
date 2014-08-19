@@ -15,6 +15,7 @@ def go():
     turn(1)
   else:
     turn(1)
+    go()
     
   for i in range(0,moved):
     go()
