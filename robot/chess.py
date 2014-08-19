@@ -18,7 +18,7 @@ def go():
     
   for i in range(0,moved):
     move()
-  turn(2)
+    go()
     
     
 go()
