@@ -23,4 +23,4 @@ def waterwheel(edges, size):
   
 
 turn(-90)
-waterwheel(20,20)
+waterwheel(20,50)
