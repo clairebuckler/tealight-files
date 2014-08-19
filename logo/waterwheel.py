@@ -1,6 +1,6 @@
 from tealight.logo import move, turn, color
 
-
+colors = ["red", "green", "blue"]
 def square(side):
   for i in range(0,4):
     move(side)
