@@ -18,7 +18,7 @@ def waterwheel(edges, size):
     move(size)
     triangle(decoration)
     turn(angle)
-    color(colors[i%3])
+   
   
 
 turn(-90)
