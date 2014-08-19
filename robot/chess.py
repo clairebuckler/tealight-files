@@ -11,7 +11,7 @@ def go():
   if touch() == 'fruit':
     move()
     moved = moved + 1
-  elif touch() == 'wall':
+  elif touch() == None:
     turn(1)
   else:
     turn(1)
