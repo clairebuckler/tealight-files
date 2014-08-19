@@ -1,4 +1,4 @@
-from tealight.logo import move, turn
+from tealight.logo import move, turn, color
 
 
 def square(side):
@@ -18,6 +18,7 @@ def waterwheel(edges, size):
     move(size)
     triangle(decoration)
     turn(angle)
+    color(colors[i%3])
   
 
 turn(-90)
