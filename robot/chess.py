@@ -14,7 +14,7 @@ def go():
   elif touch() == 'wall':
     turn(1)
   else:
-    move()
+    turn(1)
     
   for i in range(0,moved):
     go()
