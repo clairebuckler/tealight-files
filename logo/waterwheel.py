@@ -18,7 +18,7 @@ def waterwheel(edges, size):
     move(size)
     triangle(decoration)
     turn(angle)
-   
+    colors = ["red", "green", "blue"]
   
 
 turn(-90)
