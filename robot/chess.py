@@ -17,7 +17,6 @@ def go():
     move()
     
   for i in range(0,moved):
-    move()
     go()
     
     
