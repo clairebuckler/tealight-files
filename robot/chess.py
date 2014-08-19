@@ -6,4 +6,14 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-# Add your code here
+def go():
+  if touch() == 'fruit':
+    move()
+  elif touch() == 'wall':
+    turn(1)
+  else 
+    move()
+    
+go()
+  
+    
